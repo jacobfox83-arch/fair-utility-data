@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T00:37:35.756Z",
+  "updatedAt": "2026-06-23T00:51:31.125Z",
   "priceUpdatedAt": "2026-06-23",
   "priceBasis": "Representative current retail estimates by country, utility type, and selected place. Exact prices still depend on address, meter, tariff, contract term, discounts, and provider acceptance.",
   "priceSources": [
@@ -8,6 +8,7 @@
     "AU electricity benchmark checked against AER Default Market Offer 2026-27 and current NBN retail comparison data.",
     "UK electricity/gas benchmark checked against Ofgem July-September 2026 price-cap unit rates.",
     "US electricity benchmark checked against EIA Electric Power Monthly March 2026 residential prices.",
+    "Water rows checked against current municipal/regulated water charging references including Watercare, ESC Victoria, Ofwat/Water UK, US EPA WaterSense/AWWA guidance, and Canadian municipal 2026 rate schedules.",
     "Broadband/mobile rows are representative retail shelf prices, not guaranteed live quotes."
   ],
   "countries": {
