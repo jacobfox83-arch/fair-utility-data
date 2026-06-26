@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T00:51:31.125Z",
+  "updatedAt": "2026-06-26T12:06:08.981Z",
   "priceUpdatedAt": "2026-06-23",
   "priceBasis": "Representative current retail estimates by country, utility type, and selected place. Exact prices still depend on address, meter, tariff, contract term, discounts, and provider acceptance.",
   "priceSources": [
@@ -834,6 +834,65 @@
           ],
           "priceUpdated": "2026-06-23",
           "priceBasis": "Representative current retail estimate; verify exact address-level quote with provider."
+        },
+        {
+          "name": "ZZ Test Energy",
+          "tagline": "Temporary end-to-end test entry",
+          "plans": [
+            {
+              "name": "Test Plan",
+              "dailyCharge": 1.5,
+              "kwhRate": 0.3,
+              "features": [
+                "Automated test entry"
+              ],
+              "rating": 3,
+              "unit": "kWh"
+            }
+          ],
+          "regions": [
+            "Auckland"
+          ],
+          "website": "example.com",
+          "supplies": [
+            "electricity"
+          ],
+          "priceHistory": [
+            {
+              "year": "2021",
+              "rate": 0.25
+            },
+            {
+              "year": "2022",
+              "rate": 0.26
+            },
+            {
+              "year": "2023",
+              "rate": 0.27
+            },
+            {
+              "year": "2024",
+              "rate": 0.28
+            },
+            {
+              "year": "2025",
+              "rate": 0.29
+            },
+            {
+              "year": "2026",
+              "rate": 0.3
+            }
+          ],
+          "allServices": [
+            {
+              "type": "electricity",
+              "plan": "Test Plan",
+              "price": "NZ$~test/mo",
+              "detail": "0.300/kWh + NZ$1.50/day"
+            }
+          ],
+          "priceUpdated": "2026-06-27",
+          "priceBasis": "TEST ENTRY - safe to remove."
         }
       ],
       "gas": [
